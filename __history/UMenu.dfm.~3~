@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Align = alClient
+  Caption = 'Sistema'
+  ClientHeight = 432
+  ClientWidth = 754
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object h: TImage
+    Left = 8
+    Top = 17
+    Width = 97
+    Height = 89
+    Hint = 'Clientes'
+  end
+  object Label1: TLabel
+    Left = 24
+    Top = 112
+    Width = 38
+    Height = 13
+    Caption = 'Clientes'
+  end
+  object BalloonHint1: TBalloonHint
+    Left = 464
+    Top = 64
+  end
+end

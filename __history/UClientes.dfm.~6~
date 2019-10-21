@@ -1,0 +1,136 @@
+object frmClientes: TfrmClientes
+  Left = 0
+  Top = 0
+  Align = alClient
+  Caption = 'Clientes'
+  ClientHeight = 543
+  ClientWidth = 807
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 35
+    Width = 93
+    Height = 13
+    Caption = 'Filtros de Pesquisa:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 8
+    Width = 46
+    Height = 13
+    Caption = 'Pesquisa:'
+  end
+  object btnCadastro: TButton
+    Left = 552
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 0
+    OnClick = btnCadastroClick
+  end
+  object btnEditar: TButton
+    Left = 633
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Editar'
+    TabOrder = 1
+  end
+  object btnDeletar: TButton
+    Left = 714
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Deletar'
+    TabOrder = 2
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 74
+    Width = 781
+    Height = 441
+    TabOrder = 3
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Id'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Nome'
+        Width = 141
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CPF/CNPJ'
+        Width = 91
+        Visible = True
+      end>
+  end
+  object Pesquisa: TEdit
+    Left = 60
+    Top = 8
+    Width = 453
+    Height = 21
+    TabOrder = 4
+    Text = 'Pesquisa'
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Top = 51
+    Width = 49
+    Height = 17
+    Caption = 'Nome'
+    Checked = True
+    TabOrder = 5
+    TabStop = True
+  end
+  object RadioButton2: TRadioButton
+    Left = 61
+    Top = 51
+    Width = 68
+    Height = 17
+    Caption = 'CPF/CNPJ'
+    TabOrder = 6
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    ConnectionName = 'BD_Sistema'
+    SQL.Strings = (
+      'Select * from clientes')
+    Left = 544
+    Top = 40
+  end
+  object Bd_sistemaConnection: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=BD_Sistema')
+    LoginPrompt = False
+    Left = 628
+    Top = 40
+  end
+  object FDTable1: TFDTable
+    Connection = Bd_sistemaConnection
+    Left = 696
+    Top = 48
+  end
+  object DataSource1: TDataSource
+    Left = 608
+    Top = 104
+  end
+end

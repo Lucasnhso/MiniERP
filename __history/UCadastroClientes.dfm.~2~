@@ -1,0 +1,80 @@
+object frmCadastroClientes: TfrmCadastroClientes
+  Left = 0
+  Top = 0
+  Align = alClient
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 372
+  ClientWidth = 619
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 30
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 62
+    Width = 52
+    Height = 13
+    Caption = 'CPF/CNPJ:'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 8
+    Width = 14
+    Height = 13
+    Caption = 'Id:'
+  end
+  object Edit1: TEdit
+    Left = 41
+    Top = 27
+    Width = 448
+    Height = 21
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object RadioButton1: TRadioButton
+    Left = 495
+    Top = 31
+    Width = 97
+    Height = 17
+    Caption = 'Pessoa F'#237'sica'
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 495
+    Top = 54
+    Width = 113
+    Height = 17
+    Caption = 'Pessoa Jur'#237'dica'
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 66
+    Top = 59
+    Width = 359
+    Height = 21
+    TabOrder = 3
+    Text = 'Edit2'
+  end
+  object Id: TEdit
+    Left = 28
+    Top = 3
+    Width = 57
+    Height = 21
+    NumbersOnly = True
+    ReadOnly = True
+    TabOrder = 4
+    Text = 'Id'
+  end
+end

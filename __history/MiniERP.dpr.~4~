@@ -1,0 +1,20 @@
+program MiniERP;
+
+uses
+  Vcl.Forms,
+  UMenu in 'UMenu.pas' {frmMenu},
+  UClientes in 'UClientes.pas' {frmClientes},
+  DbConexao in 'DbConexao.pas' {frmDbconexao},
+  UCadastroClientes in 'UCadastroClientes.pas' {frmCadastroClientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.CreateForm(TfrmClientes, frmClientes);
+  Application.CreateForm(TfrmDbconexao, frmDbconexao);
+  Application.CreateForm(TfrmCadastroClientes, frmCadastroClientes);
+  Application.Run;
+end.

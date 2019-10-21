@@ -1,0 +1,70 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Clientes'
+  ClientHeight = 489
+  ClientWidth = 723
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnCadastro: TButton
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 0
+  end
+  object btnEditar: TButton
+    Left = 89
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Editar'
+    TabOrder = 1
+  end
+  object btnDeletar: TButton
+    Left = 170
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Deletar'
+    TabOrder = 2
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 48
+    Width = 705
+    Height = 428
+    TabOrder = 3
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Id'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Nome'
+        Width = 141
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CPF/CNPJ'
+        Width = 91
+        Visible = True
+      end>
+  end
+end

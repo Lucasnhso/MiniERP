@@ -1,0 +1,142 @@
+object frmClientes: TfrmClientes
+  Left = 0
+  Top = 0
+  Caption = 'Clientes'
+  ClientHeight = 486
+  ClientWidth = 777
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 35
+    Width = 93
+    Height = 13
+    Caption = 'Filtros de Pesquisa:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 8
+    Width = 46
+    Height = 13
+    Caption = 'Pesquisa:'
+  end
+  object btnCadastro: TButton
+    Left = 439
+    Top = 39
+    Width = 75
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 0
+    OnClick = btnCadastroClick
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 74
+    Width = 401
+    Height = 255
+    DataSource = DataModule1.DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'ID'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'NOMES'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'TIPOCLI'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CPF_CNPJ'
+        Visible = True
+      end>
+  end
+  object Pesquisa: TEdit
+    Left = 60
+    Top = 8
+    Width = 373
+    Height = 21
+    TabOrder = 2
+    Text = 'Pesquisa'
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Top = 51
+    Width = 49
+    Height = 17
+    Caption = 'Nome'
+    Checked = True
+    TabOrder = 3
+    TabStop = True
+  end
+  object RadioButton2: TRadioButton
+    Left = 61
+    Top = 51
+    Width = 68
+    Height = 17
+    Caption = 'CPF/CNPJ'
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 439
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Pesquisar'
+    TabOrder = 5
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 209
+    Top = 327
+    Width = 200
+    Height = 25
+    DataSource = DataModule1.DataSource1
+    VisibleButtons = [nbInsert, nbDelete, nbEdit, nbPost, nbCancel]
+    TabOrder = 6
+  end
+  object DBRadioGroup1: TDBRadioGroup
+    Left = 464
+    Top = 195
+    Width = 185
+    Height = 105
+    Caption = 'DBRadioGroup1'
+    DataField = 'TIPOCLI'
+    DataSource = DataModule1.DataSource1
+    TabOrder = 7
+  end
+  object RadioButton4: TRadioButton
+    Left = 528
+    Top = 355
+    Width = 113
+    Height = 17
+    Caption = 'Pessoa Jur'#237'dica'
+    TabOrder = 8
+  end
+  object RadioButton3: TRadioButton
+    Left = 497
+    Top = 355
+    Width = 97
+    Height = 17
+    Caption = 'Pessoa F'#237'sica'
+    TabOrder = 9
+  end
+end

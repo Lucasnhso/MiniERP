@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/15 11:34:19.000.662,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 11:35:27.000.284,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Menu.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 11:35:27.000.284,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Menu.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/15 11:37:06.000.658,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/10/15 11:37:16.000.409,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Clientes.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/10/15 11:37:16.000.409,C:\Users\novin\Documents\Embarcadero\Studio\Projects\Clientes.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2019/10/15 11:38:04.000.406,C:\Users\novin\Documents\Embarcadero\Studio\Projects\UMenu.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Menu.dfm</Transaction>
+    <Transaction>2019/10/15 11:38:04.000.406,C:\Users\novin\Documents\Embarcadero\Studio\Projects\UMenu.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Menu.pas</Transaction>
+    <Transaction>2019/10/15 11:38:09.000.729,C:\Users\novin\Documents\Embarcadero\Studio\Projects\UClientes.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Clientes.dfm</Transaction>
+    <Transaction>2019/10/15 11:38:09.000.729,C:\Users\novin\Documents\Embarcadero\Studio\Projects\UClientes.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Clientes.pas</Transaction>
+    <Transaction>2019/10/15 11:43:09.000.497,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 11:43:24.000.805,=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/15 11:46:53.000.872,C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2019/10/15 11:46:53.000.871,C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/15 11:47:48.000.276,C:\Users\novin\Documents\Lucas\MiniERP\UClientes.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\UClientes.pas</Transaction>
+    <Transaction>2019/10/15 11:47:48.000.276,C:\Users\novin\Documents\Lucas\MiniERP\UClientes.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\UClientes.dfm</Transaction>
+    <Transaction>2019/10/15 11:47:51.000.325,C:\Users\novin\Documents\Lucas\MiniERP\UMenu.pas=C:\Users\novin\Documents\Embarcadero\Studio\Projects\UMenu.pas</Transaction>
+    <Transaction>2019/10/15 11:47:51.000.325,C:\Users\novin\Documents\Lucas\MiniERP\UMenu.dfm=C:\Users\novin\Documents\Embarcadero\Studio\Projects\UMenu.dfm</Transaction>
+    <Transaction>2019/10/15 11:51:16.000.156,\\.\Con.dfm=C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.dfm</Transaction>
+    <Transaction>2019/10/15 11:51:16.000.170,C:\Users\novin\Documents\Lucas\MiniERP\MiniERP=\\.\Con</Transaction>
+    <Transaction>2019/10/15 11:51:16.000.170,C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.dfm=\\.\Con.dfm</Transaction>
+    <Transaction>2019/10/15 11:51:16.000.156,\\.\Con.pas=C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.pas</Transaction>
+    <Transaction>2019/10/15 11:51:44.000.840,C:\Users\novin\Documents\Lucas\MiniERP\ConBD.dfm=C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.dfm</Transaction>
+    <Transaction>2019/10/15 11:51:44.000.840,C:\Users\novin\Documents\Lucas\MiniERP\ConBD.pas=C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.pas</Transaction>
+    <Transaction>2019/10/15 11:52:01.000.779,C:\Users\novin\Documents\Lucas\MiniERP\ConBD.pas=</Transaction>
+    <Transaction>2019/10/15 11:52:33.000.193,C:\Users\novin\Documents\Lucas\MiniERP\MiniERP.dproj=C:\Users\novin\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/15 11:52:47.000.617,=C:\Users\novin\Documents\Lucas\MiniERP\Unit3.pas</Transaction>
+    <Transaction>2019/10/15 11:54:52.000.961,C:\Users\novin\Documents\Lucas\MiniERP\DbConexao.dfm=C:\Users\novin\Documents\Lucas\MiniERP\Unit3.dfm</Transaction>
+    <Transaction>2019/10/15 11:54:52.000.961,C:\Users\novin\Documents\Lucas\MiniERP\DbConexao.pas=C:\Users\novin\Documents\Lucas\MiniERP\Unit3.pas</Transaction>
+    <Transaction>2019/10/15 16:25:13.000.597,=C:\Users\novin\Documents\Lucas\MiniERP\Unit1.pas</Transaction>
+    <Transaction>2019/10/16 12:29:10.000.229,=C:\Users\novin\Documents\Lucas\MiniERP\Unit1.pas</Transaction>
+    <Transaction>2019/10/16 12:36:36.000.867,C:\Users\novin\Documents\Lucas\MiniERP\UCadastroClientes.dfm=C:\Users\novin\Documents\Lucas\MiniERP\Unit1.dfm</Transaction>
+    <Transaction>2019/10/16 12:36:36.000.867,C:\Users\novin\Documents\Lucas\MiniERP\UCadastroClientes.pas=C:\Users\novin\Documents\Lucas\MiniERP\Unit1.pas</Transaction>
+    <Transaction>2019/10/16 16:48:08.000.708,C:\Users\novin\Documents\Lucas\MiniERP\DbConexao.pas=</Transaction>
+    <Transaction>2019/10/16 16:48:32.000.160,=C:\Users\novin\Documents\Lucas\MiniERP\Unit1.pas</Transaction>
+    <Transaction>2019/10/16 16:55:12.000.445,C:\Users\novin\Documents\Lucas\MiniERP\Unit1.dfm=C:\Users\novin\Documents\Lucas\MiniERP\Conexao.dfm</Transaction>
+    <Transaction>2019/10/16 16:55:12.000.445,C:\Users\novin\Documents\Lucas\MiniERP\Unit1.pas=C:\Users\novin\Documents\Lucas\MiniERP\Conexao.pas</Transaction>
+    <Transaction>2019/10/16 20:20:11.000.133,=C:\Users\lu12o\Documents\Curso Delphi\MiniERP\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UMenu.pas"/>
+    <File Path="UMenu.dfm"/>
+    <File Path="UClientes.pas"/>
+    <File Path="UClientes.dfm"/>
+    <File Path="UCadastroClientes.pas"/>
+    <File Path="UCadastroClientes.dfm"/>
+    <File Path="Conexao.pas"/>
+    <File Path="Conexao.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,29 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 325
+  Width = 405
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=BD_Sistema')
+    Connected = True
+    Left = 72
+    Top = 56
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from clientes')
+    Left = 192
+    Top = 168
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 296
+    Top = 144
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 312
+    Top = 264
+  end
+end
